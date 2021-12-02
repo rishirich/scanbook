@@ -4,6 +4,7 @@ ScanBook is an inventory management backend service that exposes APIs to maintai
 
 ## Installation
 1.Execute the SQL Script ``db/dbsetup.sql`` to initialize the database layer of this service.
+
 2.Use ``mvn clean install -DskipTests`` to build the project and generate the WAR file. Deploy this WAR in a Tomcat web server and run ``catalina.sh``.
 
 ## APIs
